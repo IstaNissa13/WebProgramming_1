@@ -1,0 +1,162 @@
+body {
+    background: #ebebeb;
+    font: 12px Arial, Helvetica;
+}
+
+#wrapper {
+    background: #ffffff;
+    margin: auto;
+    width: 980px;
+}
+
+
+/* START HEADER */
+
+#header {
+    background: #00ada7;
+    background: -webkit-linear-gradient(top, #9ed6d3, #00ada7, #018984);
+    border-radius: 50px 10px 0 0;
+    color: #c24704;
+    height: 100px;
+    padding: 10px 0 0 0;
+}
+
+#title {
+    background: #a0e0a9;
+    background: -webkit-linear-gradient(left, #79dea8, #a0e0a9);
+    border-radius: 0 25px 25px 0;
+    box-shadow: 5px 0 5px 5px #ffee79;
+    float: left;
+    position: relative;
+    top: 25px;
+    left: 0;
+    height: 50px;
+    width: 280px;
+    margin: 10px 0 0 0;
+}
+
+#title h1 {
+    margin: 10px 0 10px 40px;
+}
+
+form #cari {
+    background: #d9cc3c;
+    background: -webkit-linear-gradient(top, #e7e189, #d9cc3c, #b19b00);
+    border-radius: 20px;
+    box-shadow: 0 1px 0 1px #00759b;
+    float: right;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    top: 30px;
+    right: 10px;
+    height: 30px;
+    width: 250px;
+}
+
+input #icari {
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    box-shadow: 0 1px 5px 1px #666666 inset;
+    margin: 1px 0 0 5px;
+    padding: 5px 15px 5px 10px;
+    width: 215px;
+}
+
+input #bcari {
+    background: #ccc;
+    background: -webkit-linear-gradient(top, #ebebeb, #ccc, #666666);
+    border: 1px solid #f2f2f2;
+    border-radius: 10px;
+    margin: 4px 0 0 -40px;
+    padding: 2px 5px 2px 5px;
+    position: absolute;
+}
+
+
+/* END HEADER */
+
+
+/* START NAVIGATION */
+
+#nav {
+    background: #666666;
+    margin: 0;
+    background: -webkit-linear-gradient(top, #666666, #333333);
+}
+
+ul #menu {
+    margin: 0;
+    padding: 10px;
+}
+
+ul #menu li {
+    margin: 0;
+    display: inline-block;
+    position: relative;
+}
+
+ul #menu li a:link,
+ul #menu li a:visited {
+    color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px 15px 10px 15px;
+    text-decoration: none;
+}
+
+ul #menu li a:hover {
+    background: rgb(0, 173, 167);
+    border-radius: 8px;
+}
+
+ul #menu li ul.submenu li:first-child a:after {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #666666;
+    content: '';
+    position: absolute;
+    top: -15;
+    left: 10px;
+    z-index: 9;
+}
+
+ul #menu li ul.submenu {
+    background: -webkit-linear-gradient(top, #666666, #333333);
+    border-radius: 10px;
+    box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.5);
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    visibility: hidden;
+    top: 40px;
+    opacity: 0px;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+
+ul #menu li ul.submenu li {
+    margin: 0;
+    display: block;
+}
+
+ul #menu li:hover ul.submenu {
+    margin: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* END NAVIGATION */
+
+#content-wrap {
+    width: 652px;
+    float: left;
+}
+
+#sidebar {
+    width: 264px;
+    float: left;
+}
+
+#footer {
+    background: #333333;
+    clear: both;
+}

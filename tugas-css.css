@@ -1,0 +1,79 @@
+#header{
+	background-color: #1F3A93;
+	padding: 30px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+	width: 100%;		
+}
+
+nav{
+	float: left;
+	width: 100%;
+	background: #4B77BE;
+	padding: 10px;
+}
+
+
+.brand-name{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	float: left;
+}
+
+.brand-name:hover{
+	background-color: #5c97bf;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	margin-right: 50px;
+}
+
+ li{
+	float: right;
+}
+
+ li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+}
+
+li a:hover{
+	background-color: #5c97bf;
+}
+
+article{
+	float: left;
+	padding: 20px;
+	width:70%;
+	background-color: #c5dce2;
+}
+
+section::after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+footer{
+	background-color: #1F3A93;
+	padding: 10px;
+	text-align: center;
+	color: white;
+	width: 100%;
+
+}

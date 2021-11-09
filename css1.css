@@ -1,0 +1,20 @@
+#judul{
+	font-family: sans-serif;
+	line-height: 1.75em;
+	font-size: 50px;
+}
+
+
+.subjudul{
+	font-family: sans-serif;
+	color: blue;
+}
+
+
+input[type=text]{
+	background-color:red ;
+	color:  black;
+	padding: 10px;
+	border : 1px solid black;
+
+}

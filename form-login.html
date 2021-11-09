@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> WEB PROGRAMMING 1 </title>
+</head>
+<body>
+
+	<h2>Form Data Diri</h2>
+
+	<form>
+		<table>
+			<tr>
+				<td> Nama Depan </td>
+				<td>: </td>
+				<td><input type="text" name="nama" id="namadepan"></td>
+			</tr>
+
+			<tr>
+				<td> Nama Belakang </td>
+				<td>: </td>
+				<td><input type="text" name="nama" id="namabelakang"></td>
+			</tr>
+
+			<tr>
+				<td> Tempat Lahir </td>
+				<td>: </td>
+				<td><select name="tempatlahir">
+					<option value="Jakarta"> Jakarta </option>
+					<option value="Tangerang"> Tangerang </option>
+					<option value="Padang"> Padang </option>
+					<option value="Purwokerto"> Purwokerto </option>
+					<option value="Lainnya"> Lainnya </option>
+				</select></td>
+			</tr>
+			
+			<tr>
+				<td> Tanggal Lahir </td>
+				<td>: </td>
+				<td><input type="date" name="ttl" id="tanggal lahir"></td>
+			</tr>
+			
+			<tr>
+				<td> Jenis Kelamin </td>
+				<td>: </td>
+				<td><input type="radio" name="gender" value="Perempuan">Perempuan<br>
+				    <input type="radio" name="gender" value="Laki-laki">Laki-laki</td>
+			</tr>
+
+			<tr>
+				<td> Alamat </td>
+				<td>: </td>
+				<td><textarea name="alamat" rows="5" cols="20"></textarea></td>
+			</tr>
+
+			<tr>
+				<td> Kelas Yang Diambil </td>
+				<td>: </td>
+				<td><input type="checkbox" name="kelas" value="webprogramming"> Web Programming <br>
+				    <input type="checkbox" name="kelas" value="iot"> Internet of Things <br>
+					<input type="checkbox" name="kelas" value="dataanalyst"> Data Analyst <br>
+					<input type="checkbox" name="kelas" value="softwareprogramming"> Software Programming<br>
+				</td>
+			</tr>
+			
+			<tr>
+				<td> Upload Bukti Pembayaran </td>
+				<td>: </td>
+				<td><input type="file" name="myfile"></td>
+			</tr>
+
+			<tr>
+				<td><input type="submit" value="SUBMIT">
+					<input type="reset" value="RESET"></td>
+			</tr>
+
+		</table>
+	</form>
+
+
+</body>
+</html>
